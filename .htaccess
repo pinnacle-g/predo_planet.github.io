@@ -1,0 +1,13 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-£
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+RewriteRule ^([^\.]+)$ $1.html
+
+RewriteRule ^wallets/([a-zA-Z]+)/([0-9a-zA-Z-_.]+) wallets.php?name=$1&img=$2 [NC,L]
+
+
