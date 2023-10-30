@@ -1,0 +1,42 @@
+2023-10-30 01:54:50 -0700
+
+/usr/local/Cellar/python@3.12/3.12.0/bin/python3.12
+-Im
+ensurepip
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 148, in _get_module_details
+  File "<frozen runpy>", line 112, in _get_module_details
+  File "/usr/local/Cellar/python@3.12/3.12.0/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ensurepip/__init__.py", line 4, in <module>
+    import subprocess
+  File "/usr/local/Cellar/python@3.12/3.12.0/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 104, in <module>
+    from _posixsubprocess import fork_exec as _fork_exec
+ModuleNotFoundError: No module named '_posixsubprocess'
+
+HOMEBREW_VERSION: 4.1.17-43-gbf8991f
+ORIGIN: https://github.com/Homebrew/brew
+HEAD: bf8991f0d777fe8e33105f0cd7bf1e5993eed60a
+Last commit: 27 hours ago
+Core tap origin: https://github.com/Homebrew/homebrew-core
+Core tap HEAD: fb7f8b3bdf482362af811b92ab5a6c4790b343bd
+Core tap last commit: 3 months ago
+Core tap branch: master
+Core tap JSON: 30 Oct 08:53 UTC
+HOMEBREW_PREFIX: /usr/local
+HOMEBREW_CASK_OPTS: []
+HOMEBREW_DISPLAY: /private/tmp/com.apple.launchd.rIkqvaNMb2/org.xquartz:0
+HOMEBREW_MAKE_JOBS: 8
+HOMEBREW_NO_BOOTSNAP: set
+HOMEBREW_SORBET_RUNTIME: set
+Homebrew Ruby: 2.6.10 => /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby
+CPU: octa-core 64-bit kabylake
+Clang: 14.0.3 build 1403
+Git: 2.42.0 => /usr/local/bin/git
+Curl: 7.86.0 => /usr/bin/curl
+macOS: 13.2.1-x86_64
+CLT: 14.3.1.0.1.1683849156
+Xcode: 14.3
+
+HOMEBREW_GIT: git
+PATH: /Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/bin:/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/.rbenv/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/usr/local/MacGPG2/bin:/usr/local/share/dotnet:/opt/X11/bin:/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/.dotnet/tools:/Library/Apple/usr/bin:/Users/local/.console-ninja/.bin:/Users/local/.nvm/versions/node/v18.17.1/bin:/Users/local/.cargo/bin:/Users/local/.foundry/bin:/Users/local/Library/Python/3.11/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin

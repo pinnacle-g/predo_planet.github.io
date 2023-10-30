@@ -1,0 +1,9 @@
+   297.3ms (setup:799): 2023-10-30 01:42:50
+   297.4ms (setup:800): /Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/Library/Python/3.11/lib/python/site-packages/pipx/__main__.py ensurepath
+   297.5ms (setup:801): pipx version is 1.2.1
+   297.6ms (setup:802): Default python interpreter is '/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/bin/python3'
+   297.7ms (mkdir:81): creating directory /Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/.local/pipx/venvs
+   297.9ms (mkdir:81): creating directory /Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/.local/bin
+   298.2ms (mkdir:81): creating directory /Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/.local/pipx/.cache
+   298.5ms (setup:810): Adding CACHEDIR.TAG to cache directory
+   538.0ms (cli:874): pipx finished.

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b59df3b23c29acc89d26a113adf3f3b733a2a6ba0c514756c09e2c208b739ddf",
+      "size": 2301,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.1.2.ventura.1",
+        "sh.brew.bottle.digest": "ea522bbfb6f4b0cf57cf6b6c3a3aff6f6027e8dd4908a5ea70cb64496ab5c865",
+        "sh.brew.bottle.size": "112656",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.15\",\"changed_files\":[\"bin/activate-global-python-argcomplete\",\"bin/python-argcomplete-check-easy-install-script\",\"bin/register-python-argcomplete\",\"lib/python3.10/site-packages/argcomplete-0.0.0.dist-info/METADATA\",\"lib/python3.11/site-packages/argcomplete-0.0.0.dist-info/METADATA\",\"lib/python3.12/site-packages/argcomplete-0.0.0.dist-info/METADATA\"],\"source_modified_time\":1694896816,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.5\",\"cpu_family\":\"penryn\",\"xcode\":\"14.3\",\"clt\":\"14.3.1.0.1.1683849156\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:95bf49ecf1df1a140cd4b3ef9bd5ac66ae800687f98950fe383696b06e8ff02f",
+      "size": 2296,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.1.2.sonoma.1",
+        "sh.brew.bottle.digest": "89400bdabf4a2246723bf671f73618052ac25934c9a335a895f626ce1d28346c",
+        "sh.brew.bottle.size": "112659",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.15\",\"changed_files\":[\"bin/activate-global-python-argcomplete\",\"bin/python-argcomplete-check-easy-install-script\",\"bin/register-python-argcomplete\",\"lib/python3.10/site-packages/argcomplete-0.0.0.dist-info/METADATA\",\"lib/python3.11/site-packages/argcomplete-0.0.0.dist-info/METADATA\",\"lib/python3.12/site-packages/argcomplete-0.0.0.dist-info/METADATA\"],\"source_modified_time\":1694896816,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"penryn\",\"xcode\":\"15.0\",\"clt\":\"15.0.0.0.1.1694021235\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:82c07b818bf3844530be6b9f72cc3a011e8fd7ab46d97e7c5ed7b7feb081c316",
+      "size": 2107,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.1.2.arm64_ventura.1",
+        "sh.brew.bottle.digest": "f1286762e4558511f61691cdf5d1cb5863b9503ec0737d2c411a2fbfc648fec9",
+        "sh.brew.bottle.size": "112611",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.15\",\"changed_files\":[\"bin/activate-global-python-argcomplete\",\"bin/python-argcomplete-check-easy-install-script\",\"bin/register-python-argcomplete\"],\"source_modified_time\":1694896816,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.5\",\"cpu_family\":\"dunno\",\"xcode\":\"14.3\",\"clt\":\"14.3.1.0.1.1683849156\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7c1a7363ad936c992ea2fa2246e53879a2ddf9a8a97214c4bd3fe3b34a525d54",
+      "size": 2173,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.1.2.x86_64_linux.1",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "d0270914f8473ce3756c7a7f3aa9a0187c9b5b1799c45eb4b5017d948370153e",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "112590",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.15\",\"changed_files\":[\"bin/activate-global-python-argcomplete\",\"bin/python-argcomplete-check-easy-install-script\",\"bin/register-python-argcomplete\"],\"source_modified_time\":1694896816,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.3\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7da4340b9f575a53af803095f18ddf58eb043592f405ad360b031153e5e52195",
+      "size": 2304,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.1.2.monterey.1",
+        "sh.brew.bottle.digest": "a192e02f6093118b4f5aa4c7627604139ee7e964b83b59c1da09afc870faf7b1",
+        "sh.brew.bottle.size": "112654",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.15\",\"changed_files\":[\"bin/activate-global-python-argcomplete\",\"bin/python-argcomplete-check-easy-install-script\",\"bin/register-python-argcomplete\",\"lib/python3.10/site-packages/argcomplete-0.0.0.dist-info/METADATA\",\"lib/python3.11/site-packages/argcomplete-0.0.0.dist-info/METADATA\",\"lib/python3.12/site-packages/argcomplete-0.0.0.dist-info/METADATA\"],\"source_modified_time\":1694896816,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"penryn\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:47398807108f800a60fe2697d6cb48a4ba89cc74f53b584c564527815eba941a",
+      "size": 2102,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.1.2.arm64_sonoma.1",
+        "sh.brew.bottle.digest": "be09a2338a78bf46bd53f6277be6ac094f9125ee7663a175d018830436c8efd4",
+        "sh.brew.bottle.size": "112612",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.15\",\"changed_files\":[\"bin/activate-global-python-argcomplete\",\"bin/python-argcomplete-check-easy-install-script\",\"bin/register-python-argcomplete\"],\"source_modified_time\":1694896816,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"dunno\",\"xcode\":\"15.0\",\"clt\":\"15.0.0.0.1.1694021235\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8f5a1ef4b2d9bb866f029621f8226c9e386ad24b645164277b36031d69154615",
+      "size": 2110,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.1.2.arm64_monterey.1",
+        "sh.brew.bottle.digest": "25228e5004a6485eb8671fd21596c65a886377c5545b8f87740a06a0ad3b89f8",
+        "sh.brew.bottle.size": "112615",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.15\",\"changed_files\":[\"bin/activate-global-python-argcomplete\",\"bin/python-argcomplete-check-easy-install-script\",\"bin/register-python-argcomplete\"],\"source_modified_time\":1694896816,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"dunno\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2023-10-09",
+    "org.opencontainers.image.description": "Tab completion for Python argparse",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/python-argcomplete",
+    "org.opencontainers.image.license": "Apache-2.0",
+    "org.opencontainers.image.ref.name": "3.1.2-1",
+    "org.opencontainers.image.revision": "c111a08eca8be77f826a7c3406b43d949c4f3ab4",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/c111a08eca8be77f826a7c3406b43d949c4f3ab4/Formula/p/python-argcomplete.rb",
+    "org.opencontainers.image.title": "python-argcomplete",
+    "org.opencontainers.image.url": "https://kislyuk.github.io/argcomplete/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "3.1.2"
+  }
+}
