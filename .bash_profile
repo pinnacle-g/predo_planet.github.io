@@ -7,23 +7,32 @@
 
 
 # with Homebrew on macOS
-brew install rbenv/tap/openssl@3
-RUBY_CONFIGURE_OPTS="/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/opt/openssl@3)" rbenv install 3.1.2
+# brew install rbenv/tap/openssl@3
+# RUBY_CONFIGURE_OPTS="/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/opt/openssl@3)" rbenv install 3.1.2
+
+# (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/.bash_profile
+
+
+# Homebrew Linux
+# mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+eval "$(homebrew/bin/brew shellenv)"
+brew update --force --quiet
+chmod -R go-w "$(brew --prefix)/share/zsh"
 
 
 # eval "$(rbenv init - bash)"
 
-echo 'eval "$(~/.rbenv/bin/rbenv init - bash)"' >> ~/.bash_profile
-export PATH="/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/.rbenv/bin:$PATH"
+# echo 'eval "$(~/.rbenv/bin/rbenv init - bash)"' >> ~/.bash_profile
+# export PATH="/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/.rbenv/bin:$PATH"
 
-source "$HOME/.cargo/env"
-RUSTUP_HOME=~/.rustup
-RUSTUP_TOOLCHAIN=none
-RUSTUP_DIST_SERVER=https://static.rust-lang.org
-RUSTUP_DIST_ROOT=https://static.rust-lang.org/dist
-RUSTUP_UPDATE_ROOT=https://static.rust-lang.org/rustup
+# source "$HOME/.cargo/env"
+# RUSTUP_HOME=~/.rustup
+# RUSTUP_TOOLCHAIN=none
+# RUSTUP_DIST_SERVER=https://static.rust-lang.org
+# RUSTUP_DIST_ROOT=https://static.rust-lang.org/dist
+# RUSTUP_UPDATE_ROOT=https://static.rust-lang.org/rustup
 
-rustup completions bash > $(brew --prefix)/etc/bash_completion.d/rustup.bash-completion
+# rustup completions bash > $(brew --prefix)/etc/bash_completion.d/rustup.bash-completion
 
 # rustup toolchain link system /usr
 # rustup toolchain link system /Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/predominantmusic
@@ -35,11 +44,21 @@ rustup completions bash > $(brew --prefix)/etc/bash_completion.d/rustup.bash-com
 # rustup default nightly
 # rustup update
 # rustup set profile minimaleval "$(~/.rbenv/bin/rbenv init - bash)"
-eval "$(~/.rbenv/bin/rbenv init - bash)"
+# eval "$(~/.rbenv/bin/rbenv init - bash)"
 
 # Created by `pipx` on 2023-10-30 08:42:50
-export PATH="$PATH:/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/.local/bin"
+# export PATH="$PATH:/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/.local/bin"
 
 # Created by `pipx` on 2023-10-30 08:42:51
-export PATH="$PATH:/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/Library/Python/3.11/bin"
-eval "$(~/.rbenv/bin/rbenv init - bash)"
+# export PATH="$PATH:/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/Library/Python/3.11/bin"
+# eval "$(~/.rbenv/bin/rbenv init - bash)"
+# eval "$(~/.rbenv/bin/rbenv init - bash)"
+# eval "$(~/.rbenv/bin/rbenv init - bash)"
+
+# eval "$(/usr/local/bin/brew shellenv)"
+# eval "$(~/.rbenv/bin/rbenv init - bash)"
+
+
+
+export CLICOLOR=1
+# eval "$(~/.rbenv/bin/rbenv init - bash)"

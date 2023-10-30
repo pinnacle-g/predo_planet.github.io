@@ -1,0 +1,432 @@
+2023-10-30 10:01:15 +0000
+
+./configure
+--disable-debug
+--disable-dependency-tracking
+--prefix=/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/homebrew/Cellar/libidn2/2.3.4_1
+--libdir=/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/homebrew/Cellar/libidn2/2.3.4_1/lib
+--disable-silent-rules
+--with-packager=Homebrew
+--with-libintl-prefix=/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/homebrew/opt/gettext
+
+configure: WARNING: unrecognized options: --disable-debug
+configure: Libidn2 2.3.4 libidn2 2.3.4 0x02030004 3:8:3 0
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... ./build-aux/install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... clang
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether clang accepts -g... yes
+checking for clang option to enable C11 features... none needed
+checking whether clang understands -c and -o together... yes
+checking whether the compiler is clang... yes
+checking for compiler option needed when checking for declarations... -Werror=implicit-function-declaration
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of clang... none
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for sys/socket.h... yes
+checking for getopt.h... yes
+checking for sys/cdefs.h... yes
+checking for limits.h... yes
+checking for sys/param.h... yes
+checking for sys/time.h... yes
+checking for stdalign.h... yes
+checking for stdbool.h... yes
+checking for stdckdint.h... no
+checking for iconv.h... yes
+checking for features.h... no
+checking for crtdefs.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking build system type... x86_64-apple-darwin22.3.0
+checking host system type... x86_64-apple-darwin22.3.0
+checking how to run the C preprocessor... clang -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for Minix Amsterdam compiler... no
+checking for ar... ar
+checking for ranlib... ranlib
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by clang... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 786432
+checking how to convert x86_64-apple-darwin22.3.0 file names to x86_64-apple-darwin22.3.0 format... func_convert_file_noop
+checking how to convert x86_64-apple-darwin22.3.0 file names to toolchain format... func_convert_file_noop
+checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... no
+checking for strip... strip
+checking for ranlib... (cached) ranlib
+checking command to parse /usr/bin/nm -B output from clang object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dsymutil... dsymutil
+checking for nmedit... nmedit
+checking for lipo... lipo
+checking for otool... otool
+checking for otool64... no
+checking for -single_module linker flag... yes
+checking for -exported_symbols_list linker flag... yes
+checking for -force_load linker flag... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if clang supports -fno-rtti -fno-exceptions... yes
+checking for clang option to produce PIC... -fno-common -DPIC
+checking if clang PIC flag -fno-common -DPIC works... yes
+checking if clang static flag -static works... no
+checking if clang supports -c -o file.o... yes
+checking if clang supports -c -o file.o... (cached) yes
+checking whether the clang linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin22.3.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether the preprocessor supports include_next... yes
+checking whether source code line length is unlimited... yes
+checking for _set_invalid_parameter_handler... no
+checking for fcntl... yes
+checking for symlink... yes
+checking for getdelim... yes
+checking for getdtablesize... yes
+checking for getprogname... yes
+checking for getexecname... no
+checking for lstat... yes
+checking for complete errno.h... yes
+checking for clang options needed to detect all undeclared functions... none needed
+checking whether strerror_r is declared... yes
+checking whether strerror_r returns char *... no
+checking whether ctype.h defines __header_inline... yes
+checking for working fcntl.h... yes
+checking for pid_t... yes
+checking for mode_t... yes
+checking whether stat file-mode macros are broken... no
+checking for C/C++ restrict keyword... __restrict__
+checking for nlink_t... yes
+checking whether getdelim is declared... yes
+checking whether getdtablesize is declared... yes
+checking whether getline is declared... yes
+checking for getopt.h... (cached) yes
+checking for getopt_long_only... yes
+checking whether getopt is POSIX compatible... no
+checking for inline... inline
+checking whether limits.h has WORD_BIT, BOOL_WIDTH etc.... no
+checking for GNU libc compatible malloc... yes
+checking whether the compiler produces multi-arch binaries... no
+checking for O_CLOEXEC... yes
+checking for promoted mode_t type... int
+checking for wchar_t... yes
+checking for good max_align_t... yes
+checking whether NULL can be used in arbitrary expressions... yes
+checking for wint_t... yes
+checking whether wint_t is large enough... yes
+checking whether stdint.h conforms to C99... yes
+checking whether stdint.h works without ISO C predefines... yes
+checking whether stdint.h has UINTMAX_WIDTH etc.... no
+checking whether fcloseall is declared... no
+checking which flavor of printf attribute matches inttypes macros... system
+checking whether ecvt is declared... yes
+checking whether fcvt is declared... yes
+checking whether gcvt is declared... yes
+checking whether strerror(0) succeeds... no
+checking for struct timespec in <time.h>... yes
+checking for TIME_UTC in <time.h>... yes
+checking whether execvpe is declared... no
+checking for valgrind... no
+checking for C compiler option to allow warnings... -Wno-error
+checking for C++ compiler option to allow warnings... -Wno-error
+checking for alloca as a compiler built-in... yes
+checking for static_assert... no
+checking whether // is distinct from /... no
+checking whether dup2 works... yes
+checking for error_at_line... no
+checking whether fcntl handles F_DUPFD correctly... yes
+checking whether fcntl understands F_DUPFD_CLOEXEC... yes
+checking for working getdelim function... yes
+checking whether getdtablesize works... yes
+checking for getline... yes
+checking for working getline function... yes
+checking whether program_invocation_name is declared... no
+checking whether program_invocation_short_name is declared... no
+checking whether __argv is declared... no
+checking whether __progname is defined in default libraries... yes
+checking whether the compiler generally respects inline... yes
+checking if gcc/ld supports -Wl,--output-def... no
+checking if LD -Wl,--version-script works... no
+checking whether the -Werror option is usable... yes
+checking for simple visibility declarations... yes
+checking whether the compiler supports the __inline keyword... yes
+checking whether open recognizes a trailing slash... no
+checking whether program_invocation_name is declared... (cached) no
+checking whether program_invocation_short_name is declared... (cached) no
+checking for rawmemchr... no
+checking for ssize_t... yes
+checking whether stat handles trailing slashes on files... no
+checking for struct stat.st_atim.tv_nsec... no
+checking for struct stat.st_atimespec.tv_nsec... yes
+checking for struct stat.st_birthtimespec.tv_nsec... yes
+checking for alignas and alignof... yes, <stdalign.h> macros
+checking for va_copy... yes
+checking for bool, true, false... no
+checking for strchrnul... no
+checking for strverscmp... no
+checking for variable-length arrays... yes
+checking for ld... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... done
+checking 32-bit host C ABI... no
+checking for ELF binary format... no
+checking for the common suffixes of directories in the library search path... lib,lib,lib
+checking for iconv... yes
+checking for working iconv... yes
+checking how to link with libiconv... -liconv
+checking whether iconv is compatible with its POSIX signature... yes
+checking whether included libunistring is requested... no
+checking for libunistring... yes
+checking how to link with libunistring... -lunistring
+checking for libunistring version... 1.1.0
+checking for nl_langinfo and CODESET... yes
+checking whether <wchar.h> uses 'inline' correctly... yes
+checking whether wcsdup is declared... yes
+checking whether free is known to preserve errno... no
+checking whether the compiler generally respects inline... (cached) yes
+checking whether to use the included libunistring... no
+checking for ssize_t... (cached) yes
+checking for bool, true, false... (cached) no
+checking for pkg-config... /Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/homebrew/Library/Homebrew/shims/mac/super/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtk-doc... no
+configure: WARNING:
+  You will not be able to create source packages with 'make dist'
+  because gtk-doc >= 1.14 is not found.
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... no
+checking whether NLS is requested... yes
+checking for msgfmt... /Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/homebrew/opt/gettext/bin/msgfmt
+checking for gmsgfmt... /Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/homebrew/opt/gettext/bin/msgfmt
+checking for xgettext... /Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/homebrew/opt/gettext/bin/xgettext
+checking for msgmerge... /Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/homebrew/opt/gettext/bin/msgmerge
+checking for CFPreferencesCopyAppValue... yes
+checking for CFLocaleCopyCurrent... yes
+checking for GNU gettext in libc... no
+checking for iconv... (cached) yes
+checking for working iconv... (cached) yes
+checking how to link with libiconv... -liconv
+checking for GNU gettext in libintl... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... external libintl
+checking how to link with libintl... -L/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/homebrew/opt/gettext/lib -lintl -Wl,-framework -Wl,CoreFoundation
+checking whether to build with code coverage support... no
+checking whether -Wno-missing-field-initializers is supported... yes
+checking whether -Wno-missing-field-initializers is needed... no
+checking whether -Wuninitialized is supported... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... yes
+checking whether C compiler handles -fanalyzer... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -fno-common... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wall... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Warith-conversion... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wbad-function-cast... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wcast-align=strict... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wdate-time... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wdisabled-optimization... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wdouble-promotion... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wduplicated-branches... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wduplicated-cond... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wextra... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wformat-signedness... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Winit-self... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Winline... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Winvalid-pch... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wlogical-op... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wmissing-declarations... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wmissing-include-dirs... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wmissing-prototypes... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wnested-externs... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wnull-dereference... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wold-style-definition... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wopenmp-simd... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Woverlength-strings... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wpacked... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wpointer-arith... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wshadow... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wstack-protector... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wstrict-overflow... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wstrict-prototypes... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wsuggest-attribute=cold... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wsuggest-attribute=const... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wsuggest-attribute=format... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wsuggest-attribute=malloc... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wsuggest-attribute=noreturn... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wsuggest-attribute=pure... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wsuggest-final-methods... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wsuggest-final-types... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wsync-nand... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wtrampolines... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wuninitialized... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wunknown-pragmas... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wunsafe-loop-optimizations... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wunused-macros... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wvariadic-macros... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wvector-operation-performance... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wvla... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wwrite-strings... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Warray-bounds=2... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wattribute-alias=2... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wbidi-chars=any,ucn... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wformat-overflow=2... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wformat=2... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wformat-truncation=2... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wimplicit-fallthrough=5... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wshift-overflow=2... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wuse-after-free=3... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wunused-const-variable=2... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wvla-larger-than=4031... no
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) yes
+checking whether C compiler handles -Wno-analyzer-malloc-leak... no
+checking whether C compiler handles -fdiagnostics-show-option... yes
+checking whether C compiler handles -fdiagnostics-color=always... yes
+checking whether C compiler handles -Wno-missing-field-initializers... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating doc/Makefile
+config.status: creating doc/reference/Makefile
+config.status: creating doc/reference/version.xml
+config.status: creating Makefile
+config.status: creating examples/Makefile
+config.status: creating lib/idn2.h
+config.status: creating lib/Makefile
+config.status: creating unistring/Makefile
+config.status: creating gl/Makefile
+config.status: creating libidn2.pc
+config.status: creating po/Makefile.in
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating fuzz/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+configure: WARNING: unrecognized options: --disable-debug
+configure: Summary of build options:
+
+  Version:           2.3.4
+  Libtool version    3:8:3
+  DLL version:       0
+  Header version:    major 2 minor 3 patch 4 number 0x02030004
+  Build/host system: x86_64-apple-darwin22.3.0 / x86_64-apple-darwin22.3.0
+  Install prefix:    /Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/homebrew/Cellar/libidn2/2.3.4_1
+  Compiler:          clang
+  Warning flags:      -fno-common -Wall -Wbad-function-cast -Wdate-time -Wdisabled-optimization -Wdouble-promotion -Wextra -Winit-self -Winline -Winvalid-pch -Wmissing-declarations -Wmissing-include-dirs -Wmissing-prototypes -Wnested-externs -Wnull-dereference -Wold-style-definition -Woverlength-strings -Wpacked -Wpointer-arith -Wshadow -Wstack-protector -Wstrict-overflow -Wstrict-prototypes -Wuninitialized -Wunknown-pragmas -Wvariadic-macros -Wvla -Wwrite-strings -Wformat=2 -fdiagnostics-show-option -fdiagnostics-color=always -Wno-missing-field-initializers
+  CFLAGS:            -g -O2 -I/Users/local/Documents/PREDOMINANT-PLANET/predo_planet/predominantmusic.com/homebrew/opt/gettext/include
+  LDFlags:           
+  Documentation:     yes
+  Library types:     Shared=yes, Static=yes
+  iconv:             yes, in libiconv -liconv
+  Libunistring:      yes 1.1.0 -lunistring
+  Valgrind:             
+  Version script:    no
+

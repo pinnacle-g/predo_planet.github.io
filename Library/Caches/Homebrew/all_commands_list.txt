@@ -11,7 +11,6 @@
 -v
 abv
 analytics
-aspell-dictionaries
 audit
 autoremove
 bottle
@@ -31,7 +30,6 @@ contributions
 create
 deps
 desc
-determine-rebottle-runners
 determine-test-runners
 developer
 dispatch-build-bottle
@@ -72,7 +70,6 @@ outdated
 pin
 post_install
 postgresql-upgrade-database
-postgresql-upgrade-database
 postinstall
 pr-automerge
 pr-publish
@@ -89,7 +86,6 @@ rm
 rubocop
 ruby
 search
-services
 setup-ruby
 sh
 shellenv

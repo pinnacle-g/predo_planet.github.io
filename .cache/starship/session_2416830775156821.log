@@ -1,0 +1,5 @@
+[WARN] - (starship::utils): Executing command "/usr/local/bin/git" timed out.
+[WARN] - (starship::utils): You can set command_timeout in your config to a higher value to allow longer-running commands to keep executing.
+[WARN] - (starship::utils): Executing command "/usr/bin/cc" timed out.
+[WARN] - (starship::utils): Executing command "/usr/bin/gcc" timed out.
+[WARN] - (starship::utils): Executing command "/usr/bin/clang" timed out.
