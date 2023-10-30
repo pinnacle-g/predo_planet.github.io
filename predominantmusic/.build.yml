@@ -1,0 +1,25 @@
+image: archlinux
+packages:
+  - rustup
+  - predominantmusic
+sources:
+  - https://github.com/devdein/predominantmusic.com.git
+tasks:
+  - setup: |
+      rustup toolchain install nightly stable
+      cd predominantmusic/
+      rustup run stable cargo fetch
+  - stable: |
+      rustup default stable
+      cd predominantmusic/
+      cargo build --verbose
+      cargo test --verbose
+  - nightly: |
+      rustup default nightly
+      cd predominantmusic/
+      cargo build --verbose ||:
+      cargo test --verbose  ||:
+  - docs: |
+      cd predominantmusic/
+      rustup run stable cargo doc --no-deps
+      rustup run nightly cargo doc --no-deps ||:

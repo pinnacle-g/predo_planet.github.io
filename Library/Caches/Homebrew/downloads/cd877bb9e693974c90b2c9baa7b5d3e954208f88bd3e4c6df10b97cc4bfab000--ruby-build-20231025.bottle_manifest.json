@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:2ff5993db0a254842f68c3d6c38b1d6e5f435a49ffeb12a04218db9d957844c6",
+      "size": 2340,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20231025.all",
+        "sh.brew.bottle.digest": "8579a397d4176995b854372a320879e5d8dca530c23ea28b87772b4b0f52abfc",
+        "sh.brew.bottle.size": "63850",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.17-9-g141ac15\",\"changed_files\":[\"bin/ruby-build\"],\"source_modified_time\":1698227867,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.19\",\"declared_directly\":false},{\"full_name\":\"autoconf\",\"version\":\"2.71\",\"declared_directly\":true},{\"full_name\":\"libyaml\",\"version\":\"0.2.5\",\"declared_directly\":true},{\"full_name\":\"pkg-config\",\"version\":\"0.29.2\",\"declared_directly\":true},{\"full_name\":\"readline\",\"version\":\"8.2.1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"penryn\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2023-10-25",
+    "org.opencontainers.image.description": "Install various Ruby versions and implementations",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/ruby-build",
+    "org.opencontainers.image.license": "MIT",
+    "org.opencontainers.image.ref.name": "20231025",
+    "org.opencontainers.image.revision": "0d68adbdfbf1eb041a5c9975073df0c02fb82291",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/0d68adbdfbf1eb041a5c9975073df0c02fb82291/Formula/r/ruby-build.rb",
+    "org.opencontainers.image.title": "ruby-build",
+    "org.opencontainers.image.url": "https://github.com/rbenv/ruby-build",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "20231025"
+  }
+}

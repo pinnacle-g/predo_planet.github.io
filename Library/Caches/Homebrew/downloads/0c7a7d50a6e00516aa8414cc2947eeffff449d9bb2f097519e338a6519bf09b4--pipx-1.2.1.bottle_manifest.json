@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:2bc7edc5af67a6867a1f5b07ff3317fb5227bf00f28800341ca1accaaabba28d",
+      "size": 2789,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.2.1.arm64_monterey",
+        "sh.brew.bottle.digest": "f4318481332018a8a2fa78d127df329743cbd54b8ce73eeb5d0e78c28326dda5",
+        "sh.brew.bottle.size": "159459",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.17\",\"changed_files\":[\"libexec/bin/pipx\",\"libexec/bin/userpath\",\"libexec/lib/python3.12/site-packages/homebrew_deps.pth\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1580601600,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"python-argcomplete\",\"version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"python-packaging\",\"version\":\"23.2\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"2.5.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2023-08-22\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.3\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.43.2\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"python@3.12\",\"version\":\"3.12.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"dunno\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ceb85bb9620028dc96feb82b25a3b302b1d38d594f63c5f6045d6ae523d43b2c",
+      "size": 2765,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.2.1.sonoma",
+        "sh.brew.bottle.digest": "4711d69030c0a6aa90cd95e013dfc11a47399a37d57d7e6ab414a6f96648503b",
+        "sh.brew.bottle.size": "159460",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.17\",\"changed_files\":[\"libexec/bin/pipx\",\"libexec/bin/userpath\",\"libexec/lib/python3.12/site-packages/homebrew_deps.pth\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1580601600,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"python-argcomplete\",\"version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"python-packaging\",\"version\":\"23.2\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"2.5.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2023-08-22\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.3\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.43.2\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"python@3.12\",\"version\":\"3.12.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"penryn\",\"xcode\":\"15.0\",\"clt\":\"15.0.0.0.1.1694021235\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:cca706981a24770e7d5eef514964d7871b0f177ffaec2de7bf94e25d757b7521",
+      "size": 2781,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.2.1.arm64_sonoma",
+        "sh.brew.bottle.digest": "debeab71ad334251712228fa2040f9b2098b8cecd15ceccfeb0d711dd2f049c0",
+        "sh.brew.bottle.size": "159462",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.17\",\"changed_files\":[\"libexec/bin/pipx\",\"libexec/bin/userpath\",\"libexec/lib/python3.12/site-packages/homebrew_deps.pth\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1580601600,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"python-argcomplete\",\"version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"python-packaging\",\"version\":\"23.2\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"2.5.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2023-08-22\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.3\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.43.2\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"python@3.12\",\"version\":\"3.12.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"dunno\",\"xcode\":\"15.0\",\"clt\":\"15.0.0.0.1.1694021235\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:bf9603ee8647898c5681486b6b60b557a01d754b5fa71655c1775c760a11c14a",
+      "size": 2786,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.2.1.arm64_ventura",
+        "sh.brew.bottle.digest": "6d1974f6b6a99e2ac4e0a78382aadefdc8e4caaca2936923ce89058c9bc311d0",
+        "sh.brew.bottle.size": "159460",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.17\",\"changed_files\":[\"libexec/bin/pipx\",\"libexec/bin/userpath\",\"libexec/lib/python3.12/site-packages/homebrew_deps.pth\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1580601600,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"python-argcomplete\",\"version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"python-packaging\",\"version\":\"23.2\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"2.5.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2023-08-22\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.3\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.43.2\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"python@3.12\",\"version\":\"3.12.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.5\",\"cpu_family\":\"dunno\",\"xcode\":\"14.3\",\"clt\":\"14.3.1.0.1.1683849156\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:914afa9c6e0129c980d50282ed599dfc9888744f72d3529587c5c20fd1897988",
+      "size": 2773,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.2.1.monterey",
+        "sh.brew.bottle.digest": "1715d6c22088a7b18dda60d6bc9a79e817f6c5adbd7ee97c855d155417cd359e",
+        "sh.brew.bottle.size": "159459",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.17\",\"changed_files\":[\"libexec/bin/pipx\",\"libexec/bin/userpath\",\"libexec/lib/python3.12/site-packages/homebrew_deps.pth\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1580601600,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"python-argcomplete\",\"version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"python-packaging\",\"version\":\"23.2\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"2.5.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2023-08-22\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.3\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.43.2\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"python@3.12\",\"version\":\"3.12.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"penryn\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c2ba7eee35d6260ebaef93ad6dbbb35321e42e3e674c7a9854aea90e53134301",
+      "size": 3787,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.2.1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "e804f64ddeb976d60f39efd2fb5ea8a3e921ce4585f0b50e6bf0f0dc5b56f9b3",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "159444",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.17\",\"changed_files\":[\"libexec/bin/pipx\",\"libexec/bin/userpath\",\"libexec/lib/python3.12/site-packages/homebrew_deps.pth\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1580601600,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"python-argcomplete\",\"version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"python-packaging\",\"version\":\"23.2\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"2.5.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2023-08-22\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.3\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.4\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.1\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.43.2\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.5.0\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20230828-3.1\",\"declared_directly\":false},{\"full_name\":\"libffi\",\"version\":\"3.4.4\",\"declared_directly\":false},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.36\",\"declared_directly\":false},{\"full_name\":\"unzip\",\"version\":\"6.0\",\"declared_directly\":false},{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"declared_directly\":false},{\"full_name\":\"krb5\",\"version\":\"1.21.2\",\"declared_directly\":false},{\"full_name\":\"libtirpc\",\"version\":\"1.3.3\",\"declared_directly\":false},{\"full_name\":\"libnsl\",\"version\":\"2.0.0\",\"declared_directly\":false},{\"full_name\":\"python@3.12\",\"version\":\"3.12.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.3\",\"cpu_family\":\"haswell\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:19e68e803f7bdc126825e8e337e847523c93fa2ff2f9c2a533e552a9263e3386",
+      "size": 2770,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.2.1.ventura",
+        "sh.brew.bottle.digest": "66c838eb9adca857b9678a577f76daaf5f7dcb91acb064286bff1d0a42623a6f",
+        "sh.brew.bottle.size": "159461",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.17\",\"changed_files\":[\"libexec/bin/pipx\",\"libexec/bin/userpath\",\"libexec/lib/python3.12/site-packages/homebrew_deps.pth\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1580601600,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"python-argcomplete\",\"version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"python-packaging\",\"version\":\"23.2\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"2.5.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2023-08-22\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.3\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.43.2\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"python@3.12\",\"version\":\"3.12.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.5\",\"cpu_family\":\"penryn\",\"xcode\":\"14.3\",\"clt\":\"14.3.1.0.1.1683849156\",\"preferred_perl\":\"5.30\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2023-10-23",
+    "org.opencontainers.image.description": "Execute binaries from Python packages in isolated environments",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/pipx",
+    "org.opencontainers.image.license": "MIT",
+    "org.opencontainers.image.ref.name": "1.2.1",
+    "org.opencontainers.image.revision": "574521cbf7a78e1708cd9f890118763080385857",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/574521cbf7a78e1708cd9f890118763080385857/Formula/p/pipx.rb",
+    "org.opencontainers.image.title": "pipx",
+    "org.opencontainers.image.url": "https://pypa.github.io/pipx",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.2.1"
+  }
+}
